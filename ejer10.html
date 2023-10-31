@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 10</title>
+</head>
+<style>
+  body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    background-color: #000000;
+  }
+
+  header {
+    background-color: #383636ce;
+    padding: 20px;
+    text-align: center;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  #content {
+    flex: 2;
+    background-color: #35353a;
+    padding: 20px;
+  }
+
+  #sidebar {
+    flex: 1;
+    background-color: #4b4a4b;
+    padding: 20px;
+  }
+
+  footer {
+    background-color: #383636ce;
+    padding: 20px;
+    text-align: center;
+  }
+
+  @media (min-width: 768px) {
+    main {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    #content {
+      flex: 2;
+      margin-right: 20px;
+    }
+
+    #sidebar {
+      flex: 1;
+    }
+  }
+
+  p,
+  h1,
+  h2,
+  ul {
+    color: #ffffff;
+  }
+</style>
+</head>
+
+<body>
+  <header>
+    <h1>Mi Biografía</h1>
+  </header>
+
+  <main>
+    <div id="content">
+      <h2>Sobre mí</h2>
+      <p>Mi nombre es Michael Vicente Castillo Pico, nací el 5 de julio de 1991 en Guayaquil. Mi familia se compone de
+        mis padres y mis 3 hermanos, mi hermana mayor Juner Castillo, mi otra hermana Katty Castillo y mi hermano Wilmer
+        Castillo.</p>
+      <p>Comencé mi educación en la escuela República de Venezuela, al terminar mi educación de primaria, asistí al
+        colegio Vicente Rocafuerte. Después de graduarme, decidí seguir mi pasión por la tecnología y me matriculé en el
+        Instituto Tecnológico Bolivariano, para estudiar la carrera de Analista en sistemas donde adquirí conocimientos
+        sólidos en el campo de sistemas.
+      </p>
+      <p>Para ampliar más mis conocimientos, decidí ingresar a la Universidad Bolivariana del Ecuador (UBE) para obtener
+        mi título de ingeniería en sistemas inteligentes.</p>
+      <p>Además de mi enfoque en la ingeniería, también tengo diversos intereses en el ámbito tecnológico, como la
+        inteligencia artificial, el aprendizaje automático y la programación. Fuera de la carrera, disfruto de jugar
+        videojuegos, ver series y películas, escuchar música, además de pasar tiempo con mi familia y amigos.</p>
+    </div>
+
+    <div id="sidebar">
+      <h2>Información</h2>
+      <ul>
+        <li>Fecha de nacimiento: 5 de julio de 1991.</li>
+        <li>Lugar de nacimiento: Guayaquil.</li>
+        <li>Educación: Escuela República de Venezuela, Colegio Vicente Rocafuerte, Instituto Tecnológico Bolivariano,
+          Universidad Bolivariana del Ecuador.</li>
+        <li>Intereses: Inteligencia artificial, aprendizaje automático, programación.</li>
+        <li>Pasatiempos: Jugar videojuegos, ver series y películas, escuchar música.</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023. Todos los derechos reservados.</p>
+  </footer>
+</body>
+
+</html>
